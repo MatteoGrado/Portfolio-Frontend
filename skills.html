@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills</title>
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="skills-style.css">
+</head>
+<body>
+
+<header class="site-header">
+    <a class="logo" href="index.html">Portfolio</a>
+    <button class="menu-toggle" type="button" data-menu-toggle aria-controls="site-nav" aria-expanded="false">☰</button>
+    <nav class="site-nav" id="site-nav" data-site-nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">Über mich</a></li>
+            <li><a href="skills.html" aria-current="page">Skills</a></li>
+            <li><a href="projects.html">Projekte</a></li>
+            <li><a href="contact.html">Kontakt</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="page-shell">
+    <section class="skills">
+        <div class="container">
+            <div class="heading">
+                <span class="tag">Skills</span>
+                <h1>Meine Fähigkeiten</h1>
+                <p>
+                    Ein Überblick über die Technologien und Werkzeuge, mit denen ich regelmäßig arbeite.
+                </p>
+            </div>
+
+            <div class="skills-grid">
+                <article class="skill-card">
+                    <h2>Backend</h2>
+                    <ul>
+                        <li>Java</li>
+                        <li>Spring Boot</li>
+                        <li>REST APIs</li>
+                        <li>Microservices</li>
+                    </ul>
+                </article>
+
+                <article class="skill-card">
+                    <h2>Daten & Tools</h2>
+                    <ul>
+                        <li>MySQL</li>
+                        <li>Docker</li>
+                        <li>RabbitMQ</li>
+                        <li>Git / GitHub</li>
+                    </ul>
+                </article>
+
+                <article class="skill-card">
+                    <h2>Arbeitsweise</h2>
+                    <ul>
+                        <li>Saubere Architektur</li>
+                        <li>Skalierbare Lösungen</li>
+                        <li>Agiles Arbeiten</li>
+                        <li>Fokus auf Wartbarkeit</li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+    </section>
+</main>
+
+<script type="module" src="nav.js"></script>
+
+</body>
+</html>

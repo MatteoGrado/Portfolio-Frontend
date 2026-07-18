@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meine Projekte</title>
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="projects-style.css">
+</head>
+<body>
+
+<header class="site-header">
+    <a class="logo" href="index.html">Portfolio</a>
+    <button class="menu-toggle" type="button" data-menu-toggle aria-controls="site-nav" aria-expanded="false">☰</button>
+    <nav class="site-nav" id="site-nav" data-site-nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">Über mich</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="projects.html" aria-current="page">Projekte</a></li>
+            <li><a href="contact.html">Kontakt</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="page-shell">
+    <section class="projects">
+        <div class="container">
+            <div class="heading">
+                <span class="tag">Portfolio</span>
+                <h1>Meine Projekte</h1>
+                <p>
+                    Hier findest du eine Auswahl meiner Projekte. Jedes Projekt wurde
+                    mit Fokus auf Skalierbarkeit und Benutzerfreundlichkeit entwickelt.
+                </p>
+            </div>
+
+            <div class="project-grid">
+                <div class="card">
+                    <div class="card-content">
+                        <h2>UnifiedOps</h2>
+                        <p>
+                            Modernes Microservice Projekt mit Java, Spring Boot, Docker, MySQL, RabbitMQ.
+                            Unterstützt Unternehmen bei der Verwaltung aller Prozesse.
+                            Services die angeboten werden sind:
+                            Kundenverwaltung, Rechnungsstellung und Ticketverwaltung.
+                        </p>
+                        <a href="https://github.com/MatteoGrado/UnifiedOps">Projekt ansehen</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-content">
+                        <h2>FinFlow</h2>
+                        <p>
+                            Ein Java, Spring Boot Monolith Projekt, das Freigabeprozesse für Rechnungen anbietet.
+                            Verwendet wird die FinFlow API. Ein reines REST API Projekt.
+                        </p>
+                        <a href="https://github.com/MatteoGrado/FinFlow">Projekt ansehen</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-content">
+                        <h2>DBP</h2>
+                        <p>
+                            Ein Java, Spring Boot Projekt, das ein internes Bankensystem darstellen soll.
+                            Ein reines REST API Projekt.
+                            Es werden die folgenden Services angeboten:
+                            Kundenverwaltung, Konto- & Kartenverwaltung, Transaktionsverwaltung,
+                            Kreditverwaltung und Immobilienverkauf.
+                        </p>
+                        <a href="https://github.com/MatteoGrado/DBP">Projekt ansehen</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<script type="module" src="nav.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="contact-style.css">
+</head>
+<body>
+
+<header class="site-header">
+    <a class="logo" href="index.html">Portfolio</a>
+    <button class="menu-toggle" type="button" data-menu-toggle aria-controls="site-nav" aria-expanded="false">☰</button>
+    <nav class="site-nav" id="site-nav" data-site-nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">Über mich</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="projects.html">Projekte</a></li>
+            <li><a href="contact.html" aria-current="page">Kontakt</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="page-shell">
+    <section class="contact">
+        <div class="container">
+            <div class="contact-info">
+                <span class="tag">Kontakt</span>
+                <h1>Schreib mir eine Nachricht</h1>
+
+                <p>
+                    Hast du Fragen, ein Projekt oder möchtest einfach Kontakt aufnehmen?
+                    Ich freue mich auf deine Nachricht und melde mich schnellstmöglich zurück.
+                </p>
+
+                <div class="info-box">
+                    <div class="item">
+                        <h3>E-Mail</h3>
+                        <p>Matteo.Grado.23@gmail.com</p>
+                    </div>
+
+                    <div class="item">
+                        <h3>Telefon</h3>
+                        <p>+49 1520 2942232</p>
+                    </div>
+
+                    <div class="item">
+                        <h3>Standort</h3>
+                        <p>Stuttgart, Baden-Württemberg, Deutschland</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <form action="http://188.245.150.251:8080/api/contact" method="POST">
+                    <input type="text" name="name" placeholder="Name" required>
+                    <input type="email" name="email" placeholder="E-Mail" required>
+                    <input type="text" name="subject" placeholder="Betreff">
+                    <textarea name="message" rows="6" placeholder="Deine Nachricht..." required></textarea>
+                    <button type="submit">Nachricht senden</button>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
+
+<script type="module" src="nav.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Über Mich</title>
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="about-style.css">
+</head>
+<body>
+
+<header class="site-header">
+    <a class="logo" href="index.html">Portfolio</a>
+    <button class="menu-toggle" type="button" data-menu-toggle aria-controls="site-nav" aria-expanded="false">☰</button>
+    <nav class="site-nav" id="site-nav" data-site-nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" aria-current="page">Über mich</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="projects.html">Projekte</a></li>
+            <li><a href="contact.html">Kontakt</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="page-shell">
+    <section class="about">
+        <div class="container">
+            <div class="image">
+                <img src="profilbild.jpeg" alt="Profilbild">
+            </div>
+
+            <div class="content">
+                <span class="tag">Über Mich</span>
+                <h1>Matteo Grado</h1>
+                <p>
+                    Ich bin Backend-Entwickler mit Leidenschaft für moderne REST-APIs,
+                    die auf Java, Spring Boot und MySQL basieren. Mit 3 Jahren Erfahrung in der Softwareentwicklung habe ich an zahlreichen Projekten gearbeitet.
+                    Meine Expertise liegt in der Entwicklung skalierbarer und effizienter Backend-Lösungen, die den Anforderungen moderner Anwendungen gerecht werden.
+                </p>
+
+                <div class="stats">
+                    <div>
+                        <h2>3</h2>
+                        <p>Jahre Erfahrung</p>
+                    </div>
+
+                    <div>
+                        <h2>5+</h2>
+                        <p>Projekte</p>
+                    </div>
+
+                    <div>
+                        <h2>100%</h2>
+                        <p>Motivation</p>
+                    </div>
+                </div>
+
+                <a href="contact.html" class="button">Kontakt</a>
+            </div>
+        </div>
+    </section>
+</main>
+
+<script type="module" src="nav.js"></script>
+
+</body>
+</html>

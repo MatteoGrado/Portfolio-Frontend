@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <a class="logo" href="index.html">Portfolio</a>
+
+        <button class="menu-toggle" type="button" data-menu-toggle aria-controls="site-nav" aria-expanded="false">
+            ☰
+        </button>
+
+        <nav class="site-nav" id="site-nav" data-site-nav>
+            <ul>
+                <li><a href="index.html" aria-current="page">Home</a></li>
+                <li><a href="about.html">Über mich</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html">Projekte</a></li>
+                <li><a href="contact.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-inner">
+            <div class="hero-content">
+                <span class="hero-kicker">Backend Developer</span>
+                <h1>Hallo, ich bin Matteo Grado</h1>
+                <p>
+                    Java, Spring Boot • Backend-Entwicklung • Webentwicklung • Softwareentwicklung
+                </p>
+                <a href="projects.html" class="button">
+                    Projekte ansehen
+                </a>
+                <a href="https://github.com/MatteoGrado" class="social-link" target="_blank" rel="noreferrer">
+                    GitHub
+                </a>
+            </div>
+
+            <div class="hero-portrait">
+                <img src="profilbild.jpeg" alt="Portrait von Matteo Grado">
+            </div>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="card">
+            <h2>UnifiedOps</h2>
+            <p>
+                Modernes Microservice Projekt mit Java, Spring Boot, Docker, MySQL, RabbitMQ.
+                Unterstützt Unternehmen bei der Verwaltung aller Prozesse.
+                Services die angeboten werden sind:<br>
+                - Kundenverwaltung<br>
+                - Rechnungsstellung<br>
+                - Ticketverwaltung<br>
+                Ein reines REST API Projekt.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>FinFlow</h2>
+            <p>
+                Ein Java, Spring Boot Monolith Projekt, das Freigabeprozesse für Rechnungen anbietet.
+                Verwendet wird die FinFlow API. Ein reines REST API Projekt.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>DBP</h2>
+            <p>
+                Ein Java, Spring Boot Projekt, das ein internes Bankensystem darstellen soll.
+                Ein reines REST API Projekt.
+                Es werden die folgenden Services angeboten:<br>
+                - Kundenverwaltung<br>
+                - Konto- & Kartenverwaltung<br>
+                - Transaktionsverwaltung<br>
+                - Kreditverwaltung<br>
+                - Immobilienverkauf<br>
+            </p>
+        </div>
+    </section>
+
+    <section class="timeline">
+        <div class="timeline-wrap">
+            <div class="timeline-heading">
+                <span class="hero-kicker">Timeline</span>
+                <h2>Mein Weg bisher</h2>
+                <p>Ein kurzer Überblick über wichtige Stationen meiner Entwicklung.</p>
+            </div>
+
+            <div class="timeline-list">
+                <div class="timeline-item">
+                    <span class="timeline-year">2023 - 2026</span>
+                    <h3>Ausbildung FIAE Schwerpunkt Java</h3>
+                    <p>Erste Projekte mit Java, Spring Boot und MySQL umgesetzt.</p>
+                </div>
+
+                <div class="timeline-item">
+                    <span class="timeline-year">2025 - 2026</span>
+                    <h3>Praktikum PHP Entwickler</h3>
+                    <p>Arbeit an internen Kundensystemen.</p>
+                </div>
+
+                <div class="timeline-item">
+                    <span class="timeline-year">2026</span>
+                    <h3>Portfolio und Projektfokus</h3>
+                    <p>Weiterer Ausbau meiner Projekte, um meine Entwicklung sichtbar zu machen.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>
+            © 2026 Matteo Grado. Alle Rechte vorbehalten.
+        </p>
+    </footer>
+
+    <script type="module" src="nav.js"></script>
+
+</body>
+</html>
